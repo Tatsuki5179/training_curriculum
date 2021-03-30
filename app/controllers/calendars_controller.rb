@@ -19,7 +19,7 @@ class CalendarsController < ApplicationController
   end
 
   def getWeek
-    require "date"
+    
 
     wday = Date.today.wday
     wdays = ['(日)','(月)','(火)','(水)','(木)','(金)','(土)']
