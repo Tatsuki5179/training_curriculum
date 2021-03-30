@@ -18,14 +18,7 @@ class CalendarsController < ApplicationController
     params.require(:plan).permit(:date, :plan)
   end
 
-<<<<<<< HEAD
-  def getWeek
-    
-=======
-
   def get_week
-    require "date"
->>>>>>> 45cb686ee6a83e8d1bc6d0f7cd9b2e373d242a77
 
     wday = Date.today.wday
 
